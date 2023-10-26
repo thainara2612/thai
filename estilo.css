@@ -16,12 +16,14 @@ body{
     padding: 0;
 }
 .principal{
-    background-image: url(Mc Kevin);
+    background-image: url();
     background-repeat: no-repeat;
     background-size:contain;
 }
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .container_botao{
     background-color: var(--cor-do-botao);
@@ -29,5 +31,14 @@ body{
     padding: 1em;
     color:var(--cor-do-texto);
     display: inline-block;
+    text-decoration: none;
+    margin-bottom: 1em;
     
+}
+.botao_secundario{
+    background-color: aqua;
+    border: 2px solid violet;
+}
+.container_imagem{
+    margin: 1em 0 2em 0;
 }
